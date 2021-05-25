@@ -50,7 +50,7 @@ function firstValue(arr, n) {
 
     // return arr.slice(0, n);
 }
-// console.log(firstValue([10, 3, -6, 22, 9, -41, 56], 2));
+// console.log(firstValue([10, 3, -6, 22, 9, -41, 56], 9));
 
 // 4.
 function checkInt (number1, number2) {
