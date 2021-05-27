@@ -63,7 +63,7 @@ while (true) {
         printOut();
     } else if (inputUser == 'update') {
         let index = Number(prompt('Enter position:'));
-        if (index >= frontEnd.length || index < 0) {
+        if (index >= mindX.length || index < 0) {
             console.log('Index not found');
         } else {
             mindX[index].name = prompt('Enter name');
