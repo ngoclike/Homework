@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.component {
+    margin: 50px;
+    display: flex;
+}
+.component .left {
+    width: 1300px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.component .right {
+    margin-left: 50px;
+}
+.component .right h2{
+    font-size: 30px;
+    border-bottom: solid;
+    border-color: turquoise;
+}
+.component .right p, h3{
+    margin-top: 30px;
+}
+.component .right .ul{
+    display: flex;
+    margin-top: 20px;
+}
+.component .right .ul .ulleft{
+    margin-left: 20px;
+}
+.component .right .ul .ulright{
+    margin-left: 160px;
+}
+.component .right ul>li{
+    list-style-type: none;
+}
+.component .right ul>li>i{
+    color: rgb(12, 192, 247);
+    margin-right: 10px;
+    font-size: 10px;
+}

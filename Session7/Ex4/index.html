@@ -4,31 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    <h2>Need Help? Sure we are online!</h2>
+    <!-- <h2>Need Help? Sure we are online!</h2>
     <p>Cras blandit euismod eros, sed aliquam mauris mollis non. Aenean tortor magna, facilisis vitae augue vel, euismod dignissim libero. 
-        Fusce nibh urna, fringilla ut nunc eget.<br><span>Quisque nec euismod quam. Curabitur at dui augue, euismod a enim eu.</span></p>
+        Fusce nibh urna, fringilla ut nunc eget.<br><span>Quisque nec euismod quam. Curabitur at dui augue, euismod a enim eu.</span></p> -->
     <form>
-        <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Last Name"><br><br>
-        <input type="email" placeholder="Your Email">
-        <input type="text" placeholder="Your Phone"><br><br>
-        <select>
-            <option value="volvo">Select Country</option>
-            <option value="saab">Vietnam</option>
-            <option value="opel">German</option>
-            <option value="audi">Laos</option>
-        </select>
-        <select>
-            <option value="volvo">Select Course</option>
-            <option value="saab">ReactJS</option>
-            <option value="opel">Javascript</option>
-            <option value="audi">Nodejs</option>
-        </select><br><br>
-        <textarea cols="50" rows="10" placeholder="Content"></textarea><br><br>
-        <button>Submit</button>
-    </form><br>
+        <div>
+            <div>
+                <input type="text" placeholder="First Name">
+                <span><input type="text" placeholder="Last Name"></span>
+            </div>
+            <div>
+                <input type="email" placeholder="Your Email">
+                <span><input type="text" placeholder="Your Phone"></span>  
+            </div>
+            <div>
+                <select>
+                    <option value="volvo">Select Country</option>
+                    <option value="saab">Vietnam</option>
+                    <option value="opel">German</option>
+                    <option value="audi">Laos</option>
+                </select>
+                <span>
+                    <select>
+                        <option value="volvo">Select Course</option>
+                        <option value="saab">ReactJS</option>
+                        <option value="opel">Javascript</option>
+                        <option value="audi">Nodejs</option>
+                    </select>
+                </span>
+            </div>
+            <textarea cols="50" rows="10" placeholder="Content"></textarea><br><br>
+            <button>Submit</button>
+        </div>
+    </form>
 </body>
 </html>

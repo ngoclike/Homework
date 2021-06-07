@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+form {
+    margin-left: 30px;
+}
+.margin_input {
+    margin-top: 8px;
+}
+.margin_input_ele {
+    margin-left: 25px;
+}
+input {
+    width: 350px;
+    height: 35px;
+    padding-left: 15px;
+}
+.size_input {
+    width: 750px;
+}
+textarea {
+    width: 750px;
+    height: 200px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+button {
+    width: 120px;
+    height: 40px;
+    background-color: rgb(62, 143, 250);
+    color: rgb(255, 254, 249);
+    border-color: rgb(230, 228, 228);
+    border-radius: 5px;
+}
+.notice_span {
+    margin-left: 340px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    opacity: 0.7;
+}
