@@ -1,0 +1,65 @@
+.container {
+    background-color: rgb(1, 98, 110);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container .component {
+    display: flex;
+}
+.container .component .item1 {
+    width: 35%;
+    padding-left: 80px;
+}
+.container .component .item2 {
+    width: 30%;
+    padding-left: 70px;
+}
+.container .component .item3 {
+    width: 35%;
+}
+.container .component .item2 ul>li>a {
+    text-decoration: inherit;
+    color: inherit;
+}
+.container .component .item3 .ul{
+    display: flex;
+    list-style-type: none;
+}
+.container .component .item3 .ul .a1{
+    background-color: rgb(97, 156, 245);
+    padding: 10px 17px 10px 17px;
+    color: white;
+    margin-left: 3px;
+}
+.container .component .item3 .ul .a4{
+    background-color: rgb(97, 156, 245);
+    padding: 10px 15px 10px 15px;
+    color: white;
+    margin-left: 3px;
+}
+.container .component .item3 .ul .a2{
+    background-color: rgb(240, 32, 32);
+    padding: 10px 12px 10px 12px;
+    color: white;
+    margin-left: 3px;
+}
+.container .component .item3 .ul .a3{
+    background-color: rgb(1, 24, 66);
+    padding: 10px 15px 10px 15px;
+    color: white;
+    margin-left: 3px;
+}
+.container .line {
+    background-color: #fff;
+    width: 100%;
+    height: 0.07px;
+    opacity: 0.4;
+}
+.container .item4 {
+    background-color: rgb(1, 98, 110);
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

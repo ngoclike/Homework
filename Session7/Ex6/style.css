@@ -9,9 +9,13 @@
 }
 .container h2 {
     font-size: 30px;
+}
+.container .underline {
+    background-color: rgb(241, 167, 6);
+    width: 60px;
+    height: 3px;
     margin-bottom: 30px;
-    border-bottom: rgb(241, 167, 6) solid;
-    width: 180px;
+    margin-top: 10px;
 }
 .container .component {
     display: flex;
