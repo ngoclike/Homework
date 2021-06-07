@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.container h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    border-bottom: rgb(241, 167, 6) solid;
+    width: 180px;
+}
+.container .component {
+    display: flex;
+}
+.container .component h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.container .component ul {
+    list-style-type: none;
+    opacity: 0.8;
+}
+.container .component ul>li {
+    margin-bottom: 25px;
+}
+.container .component ul>li>a{
+    text-decoration: inherit;
+    color: inherit;
+    margin-left: 20px;
+}
+.container .component ul>li>i {
+    font-size: 25px;
+}
+.container .component ul>li>span {
+    margin-left: 20px;
+}
+.container .component .span1 {
+    margin-left: 25px;
+}
+.container .component .span2 {
+    margin-left: 45px;
+}
+.container .component .span3 {
+    margin-left: 20px;
+}
+.container .component .right {
+    margin-left: 150px;
+}
+.container .component .right form>input {
+    width: 600px;
+    height: 10px;
+    padding: 10px;
+}
+.container .component .right form>textarea {
+    width: 601px;
+    height: 90px;
+    padding: 10px;
+}
+.container .component .right form>button {
+    width: 120px;
+    height: 40px;
+    background-color: rgb(7, 170, 192);
+    border-style: none;
+    color: rgb(255, 255, 255);
+}
+
+

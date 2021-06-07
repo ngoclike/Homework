@@ -6,13 +6,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.content_text {
+.footer .info .content_text {
     padding-right: 20px;
     line-height: 190%;
     /* text-align: ; */
 }
 
-.flex_logo {
+.footer .info .flex_logo {
     width: 190px;
     height: 50px;
     background-color: rgb(74, 19, 223);
@@ -22,24 +22,24 @@
     margin-bottom: 40px;
     font-size: 25px;
 }
-.info {
+.footer .info {
     width: 30%;
 }
 ul {
     list-style-type: none;
     padding: 0px;
 }
-.item:not(:last-child){
+.footer .item:not(:last-child){
     border-bottom: dotted 0.2px;
     width: 90%;
 }
-.l1 {
+.footer .l1 {
     width: 25%;
 }
-.l2 {
+.footer .l2 {
     width: 25%;
 }
-.l3 {
+.footer .l3 {
     width: 20%;
 }
 

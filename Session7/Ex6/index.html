@@ -5,23 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/6dffcff37b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    <h2>CONTACT US</h2>
-    <h3>Contact Info</h3>
-    <ul>
-        <li><i class="fa fa-map-marker"></i> 321 Awesome Street <br><span>New York, NY 17022</span></li>
-        <li><i class="fa fa-envelope-o"></i> info@companyname.com</li>
-        <li><i class="fa fa-phone"></i><a href="+1 800 123 1234"> +1 800 123 1234</a></li>
-    </ul>
-    <h3>Having Any Query! Or Book an appoitment</h3>
-    <form action="">
-        <input type="text" placeholder="Your name"><br><br>
-        <input type="text" placeholder="Your email"><br><br>
-        <input type="text" placeholder="Subject"><br><br>
-        <textarea cols="50" rows="10" placeholder="Message"></textarea><br><br>
-        <button>Send Message</button>
-    </form>
+    <div class="container">
+        <h2>CONTACT US</h2>
+        <div class="component">
+            <div>
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fa fa-map-marker"></i><span class="span1">321 Awesome Street</span><br><span class="span2">New York, NY 17022</span></li>
+                    <li><i class="fa fa-envelope-o"></i><span class="span3">info@companyname.com</span></li>
+                    <li><i class="fa fa-phone"></i><a href="+1 800 123 1234">+1 800 123 1234</a></li>
+                </ul>
+                <!-- <table>
+                    <tr>
+                        <td><i class="fa fa-map-marker"></i></td>
+                        <td>321 Awesome Street<br>New York, NY 17022</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-envelope-o"></i></td>
+                        <td>info@companyname.com</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-phone"></i></td>
+                        <td><a href="+1 800 123 1234">+1 800 123 1234</a></td>
+                    </tr>
+                </table> -->
+            </div>
+            <div class="right">
+                <h3>Having Any Query! Or Book an appoitment</h3>
+                <form action="">
+                    <input type="text" placeholder="Your name"><br><br>
+                    <input type="email" placeholder="Your email"><br><br>
+                    <input type="text" placeholder="Subject"><br><br>
+                    <textarea cols="50" rows="10" placeholder="Message"></textarea><br><br>
+                    <button>Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

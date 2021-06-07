@@ -14,7 +14,7 @@ p {
     margin-left: 20px;
     margin-bottom: 20px;
 }
-.align_p {
+.component .right .align_p {
     margin-top: 10px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -28,7 +28,7 @@ b {
 .component .left {
     width: 400px;
 }
-.component .block_blue {
+.component .left .block_blue {
     margin-bottom: 20px;
     margin-left: 20px;
     width: 400px;
@@ -41,7 +41,7 @@ b {
     justify-content: center;
     align-items: center;
 }
-.span_margin {
+.component .left .span_margin {
     margin-left: 20px;
 }
 .component .right {
@@ -54,7 +54,7 @@ b {
     border-bottom-color: red;
     margin-bottom: 30px;
 }
-.component .right .block_pink {
+.component .block_pink {
     width: 100px;
     height: 95px;
     border-radius: 4px;
@@ -65,6 +65,6 @@ b {
     justify-content: center;
     align-items: center;
 }
-.line_height {
+.component .line_height {
     line-height: 200%;
 }

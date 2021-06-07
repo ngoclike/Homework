@@ -14,7 +14,7 @@ form {
 .margin_input {
     margin-top: 8px;
 }
-.margin_input_ele {
+.margin_input .margin_input_ele {
     margin-left: 25px;
 }
 input {
@@ -22,7 +22,7 @@ input {
     height: 35px;
     padding-left: 15px;
 }
-.size_input {
+.margin_input .size_input {
     width: 750px;
 }
 textarea {
@@ -38,8 +38,9 @@ button {
     color: rgb(255, 254, 249);
     border-color: rgb(230, 228, 228);
     border-radius: 5px;
+    border-style: none;
 }
-.notice_span {
+.margin_input .notice_span {
     margin-left: 340px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;

@@ -19,9 +19,12 @@
 .component .right {
     margin-left: 50px;
 }
-.component .right h2{
+.component .right h2 {
     font-size: 30px;
+}
+.component .right .h2 {
     border-bottom: solid;
+    width: 20%;
     border-color: turquoise;
 }
 .component .right p, h3{
@@ -44,4 +47,10 @@
     color: rgb(12, 192, 247);
     margin-right: 10px;
     font-size: 10px;
+}
+.component .right .ul li {
+    margin-bottom: 20px;
+}
+.component .right p {
+    line-height: 170%;
 }
