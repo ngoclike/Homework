@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.component-1 {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+    text-align: center;
+    width: 50%;
+    line-height: 35px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.component-2 {
+    position: relative;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.flex-box {
+    display: flex;
+}
+.flex-box .component-3 {
+    width: 35%;
+}
+.flex-box .component-4 {
+    width: 65%;
+    margin-right: 100px;
+}
+.component-2 .flex-box .component-4 .p-1 {
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+.component-2 .flex-box .component-4 .p-2 {
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.component-5 {
+    font-family: 'Courier New', Courier, monospace;
+    width: 26%;
+    margin-left: 30px;
+    height: 430px;
+    position: absolute;
+    top: 0;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.component-5 .p-1 {
+    font-size: 18px;
+    width: 70%;
+    font-weight: bold;
+    margin-left: 40px;
+    line-height: 23px;
+    margin-bottom: 20px; 
+}
+.component-5 .p-2 {
+    font-size: 15px;
+    width: 75%;
+    margin-left: 40px;
+    line-height: 23px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+.component-5 .p-3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.component-5 .p-4 {
+    font-size: 13px;
+    margin-left: 40px;
+    color: rgb(29, 99, 250);
+}
