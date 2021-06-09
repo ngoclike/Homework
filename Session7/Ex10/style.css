@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.component-1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 35px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.component-1 .p {
+    opacity: 0.8;
+}
+.component-2 {
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.component-2 .items {
+    margin-left: 20px;
+}
+.component-2 .flex-item {
+    width: 100%;
+    height: 230px;
+    font-size: 30px;
+    background-color: rgb(218, 5, 207);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.ul {
+    list-style-type: none;
+}
+.component-2 .item-1 {
+    margin-left: 6%;
+}
+.component-2 .item-2 {
+    margin-left: 3%;
+}
+.component-2 .item-3 {
+    margin-left: 3%;
+    margin-right: 6%;
+}
+.component-2 .b {
+    font-size: 20px;
+}
+.component-2 .text {
+    font-size: 14px;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+.component-2 .box {
+    width: 30%;
+    height: 37px;
+    border: rgba(5, 5, 5, 0.746) solid 0.5px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.component-2 .box a {
+    font-size: 13px;
+    text-decoration: none;
+    color:rgba(5, 5, 5, 0.746)
+}
