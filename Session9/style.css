@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .component-1 {
+    width: 50%;
+    padding-left: 200px;
+    margin-top: 20px;
+}
+.container .component-1 .block-1 {
+    width: 35%;
+    height: 160px;
+    background-color: rgb(252, 25, 25);
+}
+.container .component-2 {
+    width: 50%;
+    padding-left: 200px;
+    margin-top: 20px;
+}
+.container .component-2 .block-2 {
+    width: 34%;
+    height: 160px;
+    background-color: rgb(252, 25, 252);
+}
+.container .component-3 {
+    width: 50%;
+    padding-left: 200px;
+    margin-top: 20px;
+}
+.container .component-3 .block-3 {
+    width: 25%;
+    height: 90px;
+    background-color: rgb(25, 225, 252);
+    margin-bottom: 10px;
+}
+.container .component-3 .block-4 {
+    width: 25%;
+    height: 90px;
+    background-color: rgb(199, 25, 252);
+}
+.container .component-4 {
+    width: 50%;
+    padding-left: 200px;
+    margin-top: 20px;
+}
+.container .component-4 .block-5 {
+    width: 35%;
+    height: 160px;
+    background-color: rgb(199, 25, 252);
+    font-size: 14px;
+}
+.container button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
